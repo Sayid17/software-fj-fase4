@@ -1,0 +1,88 @@
+2026-11-22 18:12:13 | INFO | software_fj | INICIO | 1. Registrar cliente válido
+2026-11-22 18:12:13 | INFO | software_fj | ÉXITO | 1. Registrar cliente válido
+2026-11-22 18:12:13 | INFO | software_fj | FIN | 1. Registrar cliente válido
+2026-11-22 18:12:13 | INFO | software_fj | INICIO | 1B. Guardar cliente válido
+2026-11-22 18:12:13 | INFO | software_fj | Cliente registrado: Cliente Ana Torres (C001) - ana@correo.com
+2026-11-22 18:12:13 | INFO | software_fj | ÉXITO | 1B. Guardar cliente válido
+2026-11-22 18:12:13 | INFO | software_fj | FIN | 1B. Guardar cliente válido
+2026-11-22 18:12:13 | INFO | software_fj | INICIO | 2. Rechazar correo inválido
+2026-11-22 18:12:13 | ERROR | software_fj | ERROR CONTROLADO | 2. Rechazar correo inválido | El correo electrónico no es válido.
+2026-11-22 18:12:13 | INFO | software_fj | FIN | 2. Rechazar correo inválido
+2026-11-22 18:12:13 | INFO | software_fj | INICIO | 3. Rechazar cliente duplicado
+2026-11-22 18:12:13 | ERROR | software_fj | ERROR CONTROLADO | 3. Rechazar cliente duplicado | Cliente duplicado: C001
+2026-11-22 18:12:13 | INFO | software_fj | FIN | 3. Rechazar cliente duplicado
+2026-11-22 18:12:13 | INFO | software_fj | INICIO | 4. Crear sala válida
+2026-11-22 18:12:13 | INFO | software_fj | ÉXITO | 4. Crear sala válida
+2026-11-22 18:12:13 | INFO | software_fj | FIN | 4. Crear sala válida
+2026-11-22 18:12:13 | INFO | software_fj | INICIO | 4B. Registrar sala
+2026-11-22 18:12:13 | INFO | software_fj | Servicio registrado: Sala Sala Innovación, capacidad 20, tarifa/hora $80000.00
+2026-11-22 18:12:13 | INFO | software_fj | ÉXITO | 4B. Registrar sala
+2026-11-22 18:12:13 | INFO | software_fj | FIN | 4B. Registrar sala
+2026-11-22 18:12:13 | INFO | software_fj | INICIO | 5. Crear alquiler de equipo
+2026-11-22 18:12:13 | INFO | software_fj | ÉXITO | 5. Crear alquiler de equipo
+2026-11-22 18:12:13 | INFO | software_fj | FIN | 5. Crear alquiler de equipo
+2026-11-22 18:12:13 | INFO | software_fj | INICIO | 5B. Registrar equipo
+2026-11-22 18:12:13 | INFO | software_fj | Servicio registrado: Equipo Portátil de alto rendimiento, tarifa/día $120000.00, depósito $250000.00
+2026-11-22 18:12:13 | INFO | software_fj | ÉXITO | 5B. Registrar equipo
+2026-11-22 18:12:13 | INFO | software_fj | FIN | 5B. Registrar equipo
+2026-11-22 18:12:13 | INFO | software_fj | INICIO | 6. Crear asesoría
+2026-11-22 18:12:13 | INFO | software_fj | ÉXITO | 6. Crear asesoría
+2026-11-22 18:12:13 | INFO | software_fj | FIN | 6. Crear asesoría
+2026-11-22 18:12:13 | INFO | software_fj | INICIO | 6B. Registrar asesoría
+2026-11-22 18:12:13 | INFO | software_fj | Servicio registrado: Asesoría Arquitectura de software, tarifa/hora $150000.00
+2026-11-22 18:12:13 | INFO | software_fj | ÉXITO | 6B. Registrar asesoría
+2026-11-22 18:12:13 | INFO | software_fj | FIN | 6B. Registrar asesoría
+2026-11-22 18:12:13 | INFO | software_fj | INICIO | 7. Rechazar tarifa negativa
+2026-11-22 18:12:13 | ERROR | software_fj | ERROR CONTROLADO | 7. Rechazar tarifa negativa | La tarifa base debe ser mayor que cero.
+2026-11-22 18:12:13 | INFO | software_fj | FIN | 7. Rechazar tarifa negativa
+2026-11-22 18:12:13 | INFO | software_fj | INICIO | 8. Crear reserva válida
+2026-11-22 18:12:13 | INFO | software_fj | Reserva creada: Reserva R001: Ana Torres / Sala Innovación / PENDIENTE
+2026-11-22 18:12:13 | INFO | software_fj | ÉXITO | 8. Crear reserva válida
+2026-11-22 18:12:13 | INFO | software_fj | FIN | 8. Crear reserva válida
+2026-11-22 18:12:13 | INFO | software_fj | INICIO | 9. Calcular costo con descuento
+2026-11-22 18:12:13 | INFO | software_fj | ÉXITO | 9. Calcular costo con descuento
+2026-11-22 18:12:13 | INFO | software_fj | FIN | 9. Calcular costo con descuento
+2026-11-22 18:12:13 | INFO | software_fj | INICIO | 10. Confirmar reserva
+2026-11-22 18:12:13 | INFO | software_fj | ÉXITO | 10. Confirmar reserva
+2026-11-22 18:12:13 | INFO | software_fj | FIN | 10. Confirmar reserva
+2026-11-22 18:12:13 | INFO | software_fj | INICIO | 11. Cancelar reserva
+2026-11-22 18:12:13 | INFO | software_fj | ÉXITO | 11. Cancelar reserva
+2026-11-22 18:12:13 | INFO | software_fj | FIN | 11. Cancelar reserva
+2026-11-22 18:12:13 | INFO | software_fj | INICIO | 12. Rechazar segunda cancelación
+2026-11-22 18:12:13 | ERROR | software_fj | ERROR CONTROLADO | 12. Rechazar segunda cancelación | La reserva ya fue cancelada.
+2026-11-22 18:12:13 | INFO | software_fj | FIN | 12. Rechazar segunda cancelación
+2026-11-22 18:12:13 | INFO | software_fj | INICIO | 13. Rechazar cliente inexistente
+2026-11-22 18:12:13 | ERROR | software_fj | ERROR CONTROLADO | 13. Rechazar cliente inexistente | No existe la entidad requerida: NO-EXISTE
+2026-11-22 18:12:13 | INFO | software_fj | FIN | 13. Rechazar cliente inexistente
+2026-11-22 18:12:13 | INFO | software_fj | INICIO | 14. Rechazar duración negativa
+2026-11-22 18:12:13 | ERROR | software_fj | ERROR CONTROLADO | 14. Rechazar duración negativa | La duración debe ser mayor que cero.
+2026-11-22 18:12:13 | INFO | software_fj | FIN | 14. Rechazar duración negativa
+2026-11-22 18:12:13 | INFO | software_fj | INICIO | 15. Rechazar servicio no disponible
+2026-11-22 18:12:13 | ERROR | software_fj | ERROR CONTROLADO | 15. Rechazar servicio no disponible | El servicio Portátil de alto rendimiento no está disponible.
+2026-11-22 18:12:13 | INFO | software_fj | FIN | 15. Rechazar servicio no disponible
+
+=== SOFTWARE FJ | DEMOSTRACIÓN DE OPERACIONES ===
+
+[OK] 1. Registrar cliente válido
+[OK] 1B. Guardar cliente válido
+[ERROR CONTROLADO] 2. Rechazar correo inválido: El correo electrónico no es válido.
+[ERROR CONTROLADO] 3. Rechazar cliente duplicado: Cliente duplicado: C001
+[OK] 4. Crear sala válida
+[OK] 4B. Registrar sala
+[OK] 5. Crear alquiler de equipo
+[OK] 5B. Registrar equipo
+[OK] 6. Crear asesoría
+[OK] 6B. Registrar asesoría
+[ERROR CONTROLADO] 7. Rechazar tarifa negativa: La tarifa base debe ser mayor que cero.
+[OK] 8. Crear reserva válida
+[OK] 9. Calcular costo con descuento
+    Costo calculado: $257040.00
+[OK] 10. Confirmar reserva
+[OK] 11. Cancelar reserva
+[ERROR CONTROLADO] 12. Rechazar segunda cancelación: La reserva ya fue cancelada.
+[ERROR CONTROLADO] 13. Rechazar cliente inexistente: No existe la entidad requerida: NO-EXISTE
+[ERROR CONTROLADO] 14. Rechazar duración negativa: La duración debe ser mayor que cero.
+[ERROR CONTROLADO] 15. Rechazar servicio no disponible: El servicio Portátil de alto rendimiento no está disponible.
+
+La aplicación finalizó sin interrupciones.
+Consulte el log en: /mnt/data/software_fj_fase4/logs/sistema.log

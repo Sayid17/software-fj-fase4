@@ -1,0 +1,15 @@
+test_costo_sala (test_operaciones.TestSoftwareFJ.test_costo_sala) ... 2026-11-22 18:12:16 | INFO | software_fj | Cliente registrado: Cliente Cliente Prueba (C1) - prueba@correo.com
+2026-11-22 18:12:16 | INFO | software_fj | Servicio registrado: Sala Sala Prueba, capacidad 10, tarifa/hora $100.00
+ok
+test_email_invalido (test_operaciones.TestSoftwareFJ.test_email_invalido) ... 2026-11-22 18:12:16 | INFO | software_fj | Cliente registrado: Cliente Cliente Prueba (C1) - prueba@correo.com
+2026-11-22 18:12:16 | INFO | software_fj | Servicio registrado: Sala Sala Prueba, capacidad 10, tarifa/hora $100.00
+ok
+test_flujo_reserva (test_operaciones.TestSoftwareFJ.test_flujo_reserva) ... 2026-11-22 18:12:16 | INFO | software_fj | Cliente registrado: Cliente Cliente Prueba (C1) - prueba@correo.com
+2026-11-22 18:12:16 | INFO | software_fj | Servicio registrado: Sala Sala Prueba, capacidad 10, tarifa/hora $100.00
+2026-11-22 18:12:16 | INFO | software_fj | Reserva creada: Reserva R1: Cliente Prueba / Sala Prueba / PENDIENTE
+ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.002s
+
+OK
