@@ -27,7 +27,6 @@ python -m unittest discover -s tests -v
 
 ## Integrantes
 - Yulian Sayid Mendoza Figueroa
-- [Agregar integrantes si corresponde]
 
 ## Repositorio
 Después de crear el repositorio en GitHub, reemplace este texto con su URL pública.
